@@ -16,7 +16,7 @@ namespace LineComp
 
             length1 = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
             lenght2 = Math.Sqrt((x4 - x3) ^ 2 + (y4 - y3) ^ 2);
-            if (lenght2.Equals(length1))
+            if (lenght2.CompareTo(length1)==0)
             {
                 Console.WriteLine("Both lines are of equal length");
             }
