@@ -17,9 +17,7 @@ namespace LineComp
 
             public double calLength()
             {
-                //Console.WriteLine("in callength");
                 length = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
-           // Console.WriteLine("in callength == "+l);
                 return length;
             }
 
