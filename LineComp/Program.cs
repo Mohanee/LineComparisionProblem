@@ -7,7 +7,7 @@ namespace LineComp
         static void Main(string[] args)
         {
             Console.WriteLine("**USE CASE 2**");
-            Console.WriteLine("Welcome to Line Comparision Computation Program"+"\n"+"We'll be calculating length between 2 points");
+            Console.WriteLine("Welcome to Line Comparision Computation Program"+"\n"+"We'll be comparing length between 2 lines");
             int x1 = 3, x2 = 6;
             int y1 = 4, y2 = 9;
             int x3 = 5, x4 = 10;
